@@ -21,6 +21,11 @@ private:
 
 	float dir_timer = 3.0f;
 	float prog_timer = 0.5f;
+	float search_timer = 5.0f;
+	float attack_timer = 0.0f;
+	float hit_timer = 0.0f;
+	float attackMoveTimer = 0.0f;
+	bool isHit = false;
 
 public:
 	Enemy();
